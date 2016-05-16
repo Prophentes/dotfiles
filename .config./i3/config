@@ -22,7 +22,7 @@ client.urgent           #900000 #900000 #ffffff $colPrm
 # is used in the bar {} block below.
 #font pango:monospace 8
 # font for window titles. ISO 10646 = Unicode
-font pango: M+ 1m, FontAwesome, Ionicons, 10
+font pango:Roboto Mono for Powerline, FontAwesome, Ionicons, 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -213,4 +213,3 @@ gaps outer 10
 new_window 1pixel
 
 exec_always feh --bg-scale ~/.desktopbg/grey.png
-
