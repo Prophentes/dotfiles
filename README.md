@@ -1,6 +1,7 @@
 # dotfiles for i3-gaps
 
-Requirements
+# Requirements
+
 Rofi
 
 FontAwesome
