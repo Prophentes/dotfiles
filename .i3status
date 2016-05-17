@@ -18,9 +18,7 @@ order += "weather_yahoo"
 order += "spotify"
 order += "sysdata"
 order += "wireless _first_"
-order += "ethernet _first_"
 order += "battery 0"
-order += "volume_status"
 order += "tztime local"
 
 screenshot {
