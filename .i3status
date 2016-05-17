@@ -37,7 +37,7 @@ weather_yahoo {
 }
 
 spotify {
-    format = " {artist} - {title}"
+    format = " {title} - {artist} {time}"
     color_playing = #ffffff
 }
 
@@ -50,7 +50,7 @@ battery 0 {
 
 sysdata {
     cache_timeout = 3
-    format = " {cpu_usage}% {mem_used}GB/{mem_total}GB"
+    format = " CPU:{cpu_usage}% Mem:{mem_used_percent}%"
 }
 
 keyboard_layout {
