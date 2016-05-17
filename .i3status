@@ -53,16 +53,6 @@ sysdata {
     format = " CPU:{cpu_usage}% Mem:{mem_used_percent}%"
 }
 
-keyboard_layout {
-    cache_timeout = 1
-}
-
-volume_status {
-    button_up = 4
-    button_down = 5
-    button_mute = 2
-}
-
 wireless _first_ {
         format_up = " %essid"
         format_down = " offline"
@@ -74,10 +64,3 @@ tztime local {
         format = " %m.%d.%Y %I:%M"
 }
 
-load {
-        format = "%1min"
-}
-
-disk "/" {
-        format = "%avail"
-}
